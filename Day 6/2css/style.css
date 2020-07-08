@@ -1,7 +1,13 @@
 .heading-1 {
     text-align: center;
     color: rgb(206, 135, 179);
+    font-style: italic;
 }
 body {
-    background-color: rgb(102, 197, 241);
+    background-color: rgb(151, 208, 235);
 }
+.btn:hover {
+
+background-color: burlywood;
+}
+
