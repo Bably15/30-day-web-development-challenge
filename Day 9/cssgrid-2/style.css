@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr) ;
+    grid-template-columns: repeat(3,1fr);
+} 
+.header {
+    background-color: green;
+    grid-column: 1 / -1; 
+}
+.section__sidebar {
+    grid-column: 1 / span 1;
+    background-color: rgb(101, 160, 101);
+    grid-row: 2 / span 2;
+}
+.section__content {
+    background-color: rgb(92, 205, 167);
+    grid-column: 2/ -1;
+    grid-row: 2 / span 2;
+}
+.footer {
+    background-color: lawngreen;
+    grid-column: 1/-1;
+}
