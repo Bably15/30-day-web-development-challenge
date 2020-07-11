@@ -19,5 +19,5 @@ body {
 }
 .footer {
     background-color: lawngreen;
-    grid-column: 1/-1;
+    grid-column: 1/-1                                                           ;
 }
