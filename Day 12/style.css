@@ -1,0 +1,19 @@
+body {
+    /* display: grid;
+    background-color: burlywood;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(); */
+    background-color: rgb(184, 184, 226);
+}
+.container {
+    display: grid;
+    background-color: coral;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
+  
+}
+.hey {
+    height: 50vh;
+    text-align: center;
+    
+}
