@@ -10,10 +10,16 @@ body {
     background-color: coral;
     grid-template-columns: repeat(2, 1fr);
     padding: 5px;
+    width: 70%;
+    margin: auto;
   
 }
 .hey {
     height: 50vh;
     text-align: center;
     
+    
+}
+.hey:nth-child(1) {
+    font-family:cursive ;
 }
