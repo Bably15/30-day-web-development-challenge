@@ -1,0 +1,33 @@
+.header{
+    background-color: rgb(134, 230, 233);
+    height: 45vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+
+}
+img {
+    width: 200px;
+
+    padding: 10px;
+
+}
+.service1__conceirge {
+    background-color: rgb(255, 255, 255);
+    color: rgb(54, 227, 227);
+}
+.service1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.service1__image {
+    height: 80pxs;
+    width: 60pxs;
+}
+.service1__delivery h3 {
+color: rgb(100, 200, 237);
+font-size: 20px;
+}
