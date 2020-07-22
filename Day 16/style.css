@@ -47,3 +47,15 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
+.lorem {
+    text-align: center;
+}
+.download {
+    height: 30px;
+   background-color: rgb(40, 211, 230);
+   color: rgb(255, 255, 255);
+}
+.elit {
+    text-align: center;
+    background-color:  rgb(36, 189, 206);
+}a
