@@ -1,54 +1,92 @@
+body {
+	display: grid;
+	grid-gap: 100px;
+}
 .header h2 {
-    background-color: burlywood;
-    padding: 20px;    
+	background-color: burlywood;
+	padding: 20px;
 }
 .header {
-   background-image: url(./dan-burton-oNlMfgwLbWI-unsplash.jpg);
-   height: 440px;
-   
-
-} 
+	background-image: url(./dan-burton-oNlMfgwLbWI-unsplash.jpg);
+    height: 500px;
+    
+}
 .header__lang {
-    text-align: center;
-    color: rgb(255, 255, 255);
+	text-align: center;
+	color: rgb(255, 255, 255);
 }
 .header__det {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 40px;
-    color: cornsilk;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 40px;
+	color: cornsilk;
 }
 .header__det--form {
-    background-color: cornsilk;
-    padding: 20px;
-    display: grid;
-    grid-gap: 5px;
-    width: 250px;
-    color: #000;
-    grid-template-columns: 70% 30% ;
-    
+	background-color: cornsilk;
+	padding: 20px;
+	display: grid;
+	grid-gap: 5px;
+	width: 250px;
+	color: #000;
+	grid-template-columns: 70% 30%;
+}
+.header__det--describe {
+	padding: 20px;
 }
 
 .button {
-    background-color: darkkhaki;
-    height: 30px;
-    width: 250px;
+	background-color: darkkhaki;
+	height: 30px;
+	width: 250px;
 }
-.section {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,1fr);
-    padding: 80px;
-    height: 30px;
-    grid-gap: 20px;
-    justify-content: right;
-   
+.features {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+
+	padding: 80px;
+	grid-gap: 20px;
+	justify-content: right;
 }
-.section h1 {
-    grid-column: 1/-1;
+.features h1 {
+	grid-column: 1/-1;
+	text-align: center;
+}
+.features button {
+	background-color: rgb(245, 225, 219);
+	width: 140px;
+}
+.lang {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 30px;
+}
+.lang__le {
+	background-image: url(./dan-burton-oNlMfgwLbWI-unsplash.jpg);
+	background-repeat: no-repeat;
+    background-size: 800px;
+    color: rgb(255, 255, 255);
+}
+.lang__le h2 {
+	text-align: center;
+}
+
+.lang__le--info {
+	display: grid;
+	grid-template-columns: 40% 60%;
+	justify-items: auto;
+}
+.lang__le--age {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 15px;
+}
+.lang__browse {
+	display: grid;
+	background-image: url(./dan-burton-oNlMfgwLbWI-unsplash.jpg);
+    background-size: 800px;
+    color: rgb(255, 255, 255);
     text-align: center;
-}
-.section button {
-    background-color: rgb(245, 225, 219);
-    width: 140px;
+    
+    background: linear-gradient( rgba(0, 0, 0, 0.5) ;
+   
 }
