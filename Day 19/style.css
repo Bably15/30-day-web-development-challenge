@@ -8,8 +8,7 @@ body {
 }
 .header {
 	background-image: url(./dan-burton-oNlMfgwLbWI-unsplash.jpg);
-    height: 500px;
-    
+	height: 500px;
 }
 .header__lang {
 	text-align: center;
@@ -63,8 +62,9 @@ body {
 .lang__le {
 	background-image: url(./dan-burton-oNlMfgwLbWI-unsplash.jpg);
 	background-repeat: no-repeat;
-    background-size: 800px;
-    color: rgb(255, 255, 255);
+	background-size: 800px;
+	color: rgb(255, 255, 255);
+	padding: 40px;
 }
 .lang__le h2 {
 	text-align: center;
@@ -73,20 +73,21 @@ body {
 .lang__le--info {
 	display: grid;
 	grid-template-columns: 40% 60%;
-	justify-items: auto;
+	width: 500px;
+	align-items: center;
 }
 .lang__le--age {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 15px;
+	align-items: center;
 }
 .lang__browse {
 	display: grid;
-	background-image: url(./dan-burton-oNlMfgwLbWI-unsplash.jpg);
-    background-size: 800px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    
-    background: linear-gradient( rgba(0, 0, 0, 0.5) ;
-   
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('./dan-burton-oNlMfgwLbWI-unsplash.jpg');
+	background-size: 800px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 40px;
 }
