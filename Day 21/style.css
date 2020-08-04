@@ -1,0 +1,59 @@
+/* global style */
+img {
+	width: 100%;
+	height: 100%;
+}
+.container {
+	display: grid;
+	grid-template-rows: 400px 150px 600px 450px repeat(2, 600px);
+	grid-gap: 10px;
+}
+
+.header {
+	background-image: url(./uby-yanes-nuH70D5x6cQ-unsplash.jpg);
+}
+.search {
+	display: grid;
+	grid-template-columns: 70% 30%;
+	background-color: beige;
+}
+.search__up {
+	display: grid;
+	grid-template-columns: repeat(5, 18%);
+	align-items: center;
+	padding: 1%;
+	grid-gap: 2%;
+	color: floralwhite;
+}
+
+.property {
+	background-color: darkkhaki;
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	padding: 10%;
+}
+.property__rent {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	padding: 2%;
+}
+.property__rent--cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+.property__rent--cards--content {
+	display: grid;
+	grid-template-rows: 60% 20% 20%;
+	padding: 10%;
+}
+
+.trending {
+	background-color: darkorange;
+}
+.news {
+	background-color: darkslateblue;
+}
+.footer {
+	background-color: deepskyblue;
+}
