@@ -29,27 +29,35 @@ img {
 .property {
 	background-color: darkkhaki;
 	display: grid;
-	grid-template-rows: repeat(2, 1fr);
-	padding: 10%;
+	grid-template-rows: repeat(2, 50%);
+	/* padding: 10%; */
 }
-.property__rent {
+.property__row {
 	display: grid;
 	grid-template-columns: 30% 70%;
-	padding: 2%;
+	padding: 5%;
 }
-.property__rent--cards {
+.property__row--cards {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 20px;
+	grid-gap: 30px;
 }
-.property__rent--cards--content {
+.property__row--cards--card {
 	display: grid;
-	grid-template-rows: 60% 20% 20%;
-	padding: 10%;
+	grid-template-rows: 50% repeat(2, 25%);
+}
+.hel {
+	background-color: green;
 }
 
 .trending {
 	background-color: darkorange;
+	text-align: center;
+}
+.trending__property {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 10%;
 }
 .news {
 	background-color: darkslateblue;
