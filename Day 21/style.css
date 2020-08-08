@@ -59,7 +59,7 @@ img {
 	color: aliceblue;
 	display: grid;
 	grid-template-rows: 30% 70%;
-	padding: 5%;
+	padding: 2%;
 }
 .trending__title {
 	text-align: center;
@@ -79,12 +79,27 @@ img {
 .news {
 	background-color: rgb(193, 154, 120);
 	display: grid;
-	padding: 3%;
+	padding: 5%;
 }
 .news__title {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	background-color: rgb(238, 208, 131);
+	padding: 3%;
+}
+.news__content {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10%;
+}
+.news__content--1 {
+	padding: 2%;
+}
+.news__content--2 {
+	padding: 9%;
 }
 .footer {
-	background-color: deepskyblue;
+	background-color: rgb(189, 223, 251);
+	background-image: url(./jeshua-sharkey-tS_aLD60nz0-unsplash.jpg);
+	padding: 10%;
 }
