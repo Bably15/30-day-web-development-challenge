@@ -102,4 +102,6 @@ img {
 	background-color: rgb(189, 223, 251);
 	background-image: url(./jeshua-sharkey-tS_aLD60nz0-unsplash.jpg);
 	padding: 10%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
 }
