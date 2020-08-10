@@ -23,11 +23,11 @@ img {
 	align-items: center;
 	padding: 1%;
 	grid-gap: 2%;
-	color: floralwhite;
+	color: rgb(0, 0, 0);
 }
 
 .property {
-	background-color: darkkhaki;
+	background-color: rgb(255, 255, 255);
 	display: grid;
 	grid-template-columns: repeat(4, 24%);
 	grid-template-rows: repeat(2, 45%);
@@ -39,7 +39,7 @@ img {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(4, 25%);
-	background-color: khaki;
+	background-color: rgb(255, 255, 255)38, 235, 201);
 	font-size: small;
 	padding: 3%;
 }
@@ -55,42 +55,44 @@ img {
 	background-color: green;
 }
 .trending {
-	background-color: rgb(236, 203, 146);
-	color: aliceblue;
+	background-color: rgb(233, 233, 233);
+	color: rgb(0, 0, 0);
 	display: grid;
 	grid-template-rows: 30% 70%;
 	padding: 2%;
 }
 .trending__title {
 	text-align: center;
+	color: #000;
 }
 .trending__content {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(2, 50%);
-	background-color: chocolate;
+	background-color: rgb(12, 9, 9);
 	grid-gap: 2%;
 	padding: 1%;
 }
 
 .ht {
-	background-color: rgb(245, 187, 146);
+	background-color: rgb(255, 255, 255);
 }
 .news {
-	background-color: rgb(193, 154, 120);
+	background-color: rgb(255, 255, 255);
 	display: grid;
 	padding: 5%;
 }
 .news__title {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	background-color: rgb(238, 208, 131);
+	background-color: rgb(255, 255, 255);
 	padding: 3%;
+	grid-gap: 8%;
 }
 .news__content {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 10%;
+	grid-gap: 5%;
 }
 .news__content--1 {
 	padding: 2%;
@@ -104,4 +106,8 @@ img {
 	padding: 10%;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10%;
+}
+.footer__ad div {
+	padding: 5%;
 }
