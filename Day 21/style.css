@@ -10,12 +10,14 @@ img {
 }
 
 .header {
-	background-image: url(./uby-yanes-nuH70D5x6cQ-unsplash.jpg);
+	background-image: url(./alesia-kazantceva-VWcPlbHglYc-unsplash.jpg);
+	background-size: 75%;
 }
 .search {
 	display: grid;
 	grid-template-columns: 70% 30%;
-	background-color: beige;
+	background-color: rgb(237, 237, 237);
+	padding: 2%;
 }
 .search__up {
 	display: grid;
@@ -73,6 +75,11 @@ img {
 	grid-gap: 2%;
 	padding: 1%;
 }
+.trending__content--cards div {
+	display: grid;
+	grid-template-columns: 40% repeat(2, 30%);
+	/* grid-gap: 20%; */
+}
 
 .ht {
 	background-color: rgb(255, 255, 255);
@@ -103,6 +110,7 @@ img {
 .footer {
 	background-color: rgb(189, 223, 251);
 	background-image: url(./jeshua-sharkey-tS_aLD60nz0-unsplash.jpg);
+	background-size: 100%;
 	padding: 10%;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
