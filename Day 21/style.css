@@ -41,7 +41,7 @@ img {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(4, 25%);
-	background-color: rgb(255, 255, 255)38, 235, 201);
+	background-color: rgb(255, 255, 255);
 	font-size: small;
 	padding: 3%;
 }
@@ -86,39 +86,36 @@ img {
 }
 
 .info {
-	background-color: rgb(232, 232, 232);
+	background-color: rgb(255, 255, 255);
 	display: grid;
-	grid-template-columns: repeat(3,1fr);
-	grid-template-rows: repeat(4,1fr); 
-	padding: 5%;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	padding: 4%;
 	grid-gap: 3%;
+	justify-items: center;
 }
 .info div {
 	display: grid;
-	
 	grid-template-columns: 20% 80%;
-	grid-template-rows:repeat(2,1fr) ;
+	grid-template-rows: repeat(2, 50%);
+	grid-column-gap: 3%;
 	align-items: center;
+}
 
+.info__content i,
+.info__content img {
+	grid-row: 1 / -1;
+	justify-self: center;
 }
-.info div :nth-child(1) {
-	
-	display: grid;
-	grid-template-rows: repeat(2,1fr);
-	grid-row: 1/ -1;
-}
+
 .info h4 {
-    text-align: center;
+	text-align: center;
 }
 .info div img {
 	border-radius: 80%;
 	height: 50%;
-	
 }
-.div :nth-child(2) {
-	display: grid;
-	grid-gap: 2%;
-}
+
 .footer {
 	background-color: rgb(189, 223, 251);
 	background-image: url(./jeshua-sharkey-tS_aLD60nz0-unsplash.jpg);
