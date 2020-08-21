@@ -50,3 +50,93 @@ button {
 .top__footer {
 	grid-column: 1/-1;
 }
+.launches {
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.launches__products {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 70% 30%;
+	grid-gap: 5%;
+	align-items: center;
+	padding: 5%;
+	text-align: center;
+	background-image: url(./Plays-Nice-with-Background.png);
+	padding: 10%;
+	background-size: cover;
+}
+.launches__products div {
+	background-color: rgb(251, 227, 212);
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.shadows {
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+.shadows__bg {
+	background-image: url(./8569-FB-FALL-LAUNCH-HP-SITE-UPDATES_TERTIARY-SLIDER-1_DESKTOP_BULK_477x594.jpg);
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 20%;
+	font-family: 'Courier New', Courier, monospace;
+}
+/* .shadows img {
+	height: 100%;
+	width: 100%; */
+
+.shadows__btn {
+	background-color: rgb(255, 255, 255);
+	color: #000;
+}
+.sale {
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+.sale__products {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 70% 30%;
+	grid-gap: 5%;
+	align-items: center;
+	padding: 5%;
+	text-align: center;
+	background-image: url(./Plays-Nice-with-Background.png);
+	padding: 10%;
+	background-size: cover;
+}
+.sale__products div {
+	background-color: rgb(251, 227, 212);
+	text-align: center;
+	font-family: monospace;
+}
+.skin {
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+.skin__bg {
+	background-image: url(./bg.jpg);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+	padding: 5%;
+	letter-spacing: 0.3em;
+	/* font-weight: 700; */
+	/* line-height: 300%; */
+}
+.products {
+	background-image: url(./featured-tile-section-bg_1.jpg);
+	text-align: center;
+	padding: 5%;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing: 0.3em;
+}
+.products__img {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 5%;
+	grid-gap: 3%;
+}
+.shop {
+	height: 10%;
+}
