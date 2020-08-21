@@ -140,3 +140,16 @@ button {
 .shop {
 	height: 10%;
 }
+.gloss {
+	display: grid;
+	grid-template-columns: 70% 30%;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+.gloss__bg {
+	background-image: url(./red.jpg);
+	padding: 10%;
+}
+.btn {
+	height: 20%;
+}
