@@ -1,3 +1,7 @@
+.container {
+	display: grid;
+	grid-template-rows: 200px 500px;
+}
 .header {
 	display: grid;
 	grid-template-rows: repeat(3 20%);
@@ -36,6 +40,7 @@
 	color: rgb(255, 255, 255);
 	text-align: center;
 	padding: 20%;
+	height: 56%;
 }
 img {
 	max-width: 100%;
@@ -81,6 +86,7 @@ button {
 	text-align: center;
 	padding: 20%;
 	font-family: 'Courier New', Courier, monospace;
+	height: 56%;
 }
 /* .shadows img {
 	height: 100%;
@@ -120,6 +126,7 @@ button {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
 	padding: 5%;
+	height: 88%;
 	letter-spacing: 0.3em;
 	/* font-weight: 700; */
 	/* line-height: 300%; */
@@ -147,9 +154,46 @@ button {
 	text-align: center;
 }
 .gloss__bg {
-	background-image: url(./red.jpg);
+	background-image: url(./red\ .jpg);
+	padding: 10%;
+
+	color: rgb(255, 255, 255);
+}
+.gloss__bg div {
 	padding: 10%;
 }
 .btn {
-	height: 20%;
+	height: 60%;
+}
+.black {
+	display: grid;
+	grid-template-rows: 20% 80%;
+}
+.black__note {
+	padding: 5%;
+	background-image: url(./yes.jpg);
+	text-align: center;
+	/* background-color: rgb(255, 255, 255); */
+	font-family: 'Courier New', Courier, monospace Times, Arial, sans-serif;
+}
+.black__note div {
+	background-color: rgb(255, 255, 255);
+	padding: 3%;
+}
+.black__photos {
+	background-image: url(./OLAPIC_BG.jpg);
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+.black__photos--order {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 4%;
+	padding: 5%;
+}
+.buton {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	height: 10%;
+	width: 20%;
 }
