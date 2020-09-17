@@ -1,7 +1,7 @@
-.container {
+/* .container {
 	display: grid;
-	grid-template-rows: 200px 500px;
-}
+	grid-template-rows: 200px 500px; */
+
 .header {
 	display: grid;
 	grid-template-rows: repeat(3 20%);
@@ -34,13 +34,17 @@
 
 	/* padding: 20%; */
 }
+/* .top__img {
+	backgroun
+} */
+
 .top__bg {
 	background-color: rgb(203, 128, 128);
 	background-image: url('bg\ fenty.jpg');
 	color: rgb(255, 255, 255);
 	text-align: center;
 	padding: 20%;
-	height: 56%;
+	/* height: 56%; */
 }
 img {
 	max-width: 100%;
@@ -86,7 +90,7 @@ button {
 	text-align: center;
 	padding: 20%;
 	font-family: 'Courier New', Courier, monospace;
-	height: 56%;
+	/* height: 56%; */
 }
 /* .shadows img {
 	height: 100%;
@@ -126,7 +130,7 @@ button {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
 	padding: 5%;
-	height: 88%;
+	/* height: 88%; */
 	letter-spacing: 0.3em;
 	/* font-weight: 700; */
 	/* line-height: 300%; */
@@ -191,9 +195,25 @@ button {
 	grid-gap: 4%;
 	padding: 5%;
 }
+.black__photos--order div :nth-child(1) {
+	height: 80%;
+}
 .buton {
 	background-color: rgb(255, 255, 255);
 	color: rgb(0, 0, 0);
 	height: 10%;
 	width: 20%;
+}
+.footer {
+	background-image: url(./jakub-sofranko-RoYujmHrdxA-unsplash.jpg);
+	color: floralwhite;
+	padding: 2%;
+	text-align: center;
+}
+.footer__notify {
+	color: rgb(255, 255, 255);
+	grid-template-columns: repeat(2, 1fr);
+}
+.foot {
+	width: 10%;
 }
