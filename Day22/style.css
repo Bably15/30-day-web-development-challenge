@@ -192,6 +192,7 @@ button {
 .black__photos--order {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 300px;
 	grid-gap: 4%;
 	padding: 5%;
 }
