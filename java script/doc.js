@@ -23,3 +23,10 @@ if (myAge >= 20 && myAge <= 40) {
 } else {
 	document.write('you are grounded');
 }
+let myGreeting = 10;
+
+if (myGreeting > 12 || myGreeting < 5) {
+	document.write('good afternoon');
+} else {
+	document.write('good morning');
+}
